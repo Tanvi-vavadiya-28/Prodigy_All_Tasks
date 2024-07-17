@@ -183,7 +183,7 @@ Description: Implemented basic error handling to display an error message when t
 Task: Create the layout for displaying weather information.
 Description: Designed sections for displaying the city name, temperature, and weather description. Added a placeholder image for the weather icon.
 
-**_Day 6_**: Additional Weather Details
+**_Day 6_**: Additional Weather Details </p>
 Task: Add sections for displaying humidity and wind speed.
 Description: Integrated sections for humidity and wind speed. Styled these sections to maintain a cohesive design.
 
