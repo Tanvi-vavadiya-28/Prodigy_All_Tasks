@@ -1,0 +1,16 @@
+.weather-container {
+    background: linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .weather-info {
+    text-align: left;
+  }
+  
+  .weather-info p {
+    margin: 5px 0;
+  }
+  

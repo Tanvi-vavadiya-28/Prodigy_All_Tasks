@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color:white; /* Change background color to black */
+  color: white; /* Change font color to white */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.card {
+  background-color: black; /* Black background for the card */
+  border-radius: 10px;
+  padding: 100px;
+  text-align: center;
+}
+
+.display {
+  font-size: 4em; /* Increase font size */
+  margin-bottom: 20px;
+  color: white; /* Change font color to white */
+}
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+ul.laps {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+ul.laps li {
+  margin-bottom: 5px;
+}

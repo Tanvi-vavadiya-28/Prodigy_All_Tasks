@@ -1,0 +1,22 @@
+.location-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .location-form input {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  .location-form button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background: linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%);
+    border: none;
+    color: white;
+    border-radius: 5px;
+  }
+  

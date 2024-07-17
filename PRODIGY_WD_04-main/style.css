@@ -1,0 +1,130 @@
+/* Reset some default styles for consistency */
+*{
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+.nav{
+    padding-left: -1rem;
+}
+header {
+    background-color: #0d1b2a;
+    color: #fff;
+    padding: 1rem;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    font-size: 1.5rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+    justify-content: space-between;
+}
+
+nav ul li a:hover {
+    color: #f1c40f;
+}
+.container-fluid h1{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    display: inline-block;
+    vertical-align:top;
+    justify-content: space-between;
+}
+img{
+    display: inline-block;
+    width: 4.4rem; /* Adjust the width and height as per your preference */
+    height: 4rem;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.new a{
+    color: orange;
+    text-decoration: none;
+
+}
+#contact{
+    background-color: #1b263b;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 4rem 0;
+    text-align: center;
+    justify-content: space-between;
+}
+#about, #projects{
+    background-color: #e0e1dd;
+}
+/* Styles for hero section */
+#hero {
+    background-color: #1b263b;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+#hero h2 {
+    font-size: 2.5rem;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #f1c40f;
+    color: #333;
+    padding: 0.5rem 1.3rem;
+    margin-top: 1rem;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    border-radius: 0%;
+    background-color: #e67e22;
+}
+
+/* Styles for other sections (about, projects, contact) */
+section {
+    padding: 4rem 0;
+}
+
+/* Styles for footer */
+footer {
+    background-color: #0d1b2a;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
